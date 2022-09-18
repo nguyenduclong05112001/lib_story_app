@@ -118,7 +118,6 @@ class ViewPagerAdapter(
     }
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
-        youtubePlayer!!.release()
         container.removeView(`object` as View)
     }
 

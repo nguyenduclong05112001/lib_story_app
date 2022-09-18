@@ -51,6 +51,12 @@ class MainActivity : AppCompatActivity() {
 
         val urls: ArrayList<StoryDocsAPI> = story.data.news.docs
 
+        Log.d("ádasdasd", "showStories: ${urls.size}")
+
+        urls.forEach {
+            Log.d("ádasdasd", "showStories: ${it.video}")
+        }
+
         for (item in urls) {
             if (item.video.isEmpty()) {
                 myStories.add(StoryLocal(item.cover, item.video, item.text))
@@ -58,8 +64,6 @@ class MainActivity : AppCompatActivity() {
                 myStories.add(StoryLocal(item.cover, item.video, item.text, 15000L))
             }
         }
-
-        Log.d("asdsadasdsad", "showStories: $supportFragmentManager")
 
         StoryBuilder(supportFragmentManager)
             .setStoriesList(myStories)
