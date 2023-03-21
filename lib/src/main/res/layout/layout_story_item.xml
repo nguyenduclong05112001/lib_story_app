@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com_story.example.lib.lib_ui.DynamicImageView
+    <story.news.app.lib_ui.DynamicImageView
         android:id="@+id/imageStory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

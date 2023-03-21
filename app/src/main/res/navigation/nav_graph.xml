@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com_story.example.stories_app_lib.MainFragment"
+        android:name="story.news.stories_app_lib.MainFragment"
         android:label="MainFRAGMENT"
         tools:layout="@layout/main_fragment" />
 

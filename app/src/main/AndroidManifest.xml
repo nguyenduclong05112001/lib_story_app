@@ -17,7 +17,7 @@
         android:theme="@style/Theme.Stories_app_lib"
         tools:targetApi="31">
         <activity
-            android:name="com_story.example.stories_app_lib.MainActivity"
+            android:name="story.news.stories_app_lib.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com_story.example.stories_app_lib.MainActivity">
+    tools:context="story.news.stories_app_lib.MainActivity">
 
     <include layout="@layout/content_main" />
+
 </LinearLayout>

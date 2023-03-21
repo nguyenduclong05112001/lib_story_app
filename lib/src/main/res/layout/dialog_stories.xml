@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com_story.example.lib.lib_ui.PullDismissLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<story.news.app.lib_ui.PullDismissLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/pull_dismiss_layout"
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com_story.example.lib.lib_ui.CustomViewPager
+        <story.news.app.lib_ui.CustomViewPager
             android:id="@+id/storiesViewPager"
             android:layout_width="0dp"
             android:background="#707070"
@@ -21,9 +21,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-        </com_story.example.lib.lib_ui.CustomViewPager>
+        </story.news.app.lib_ui.CustomViewPager>
 
-        <com_story.example.lib.lib_progress.StoriesProgressView
+        <story.news.app.lib_progress.StoriesProgressView
             android:id="@+id/storiesProgressView"
             android:layout_width="0dp"
             android:layout_height="3dp"
@@ -100,4 +100,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</com_story.example.lib.lib_ui.PullDismissLayout>
+</story.news.app.lib_ui.PullDismissLayout>
